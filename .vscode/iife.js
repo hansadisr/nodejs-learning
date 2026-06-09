@@ -4,8 +4,8 @@
 }
 ) ();
 
-(function () {
+(function (message) {
     const superHero = "superman";
-    console.log(superHero);
+    console.log(message,superHero);
 }
-) ();
+) ("Hello");
